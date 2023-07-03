@@ -1,0 +1,23 @@
+#grid {
+    
+    width: 60%;
+    margin: 2rem auto 2rem;
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    gap: 10px ; /*to get space btw cells */
+    
+
+}
+
+#grid .cell {
+    text-align: center;
+    padding: 50px 0;
+    border: 1px solid lightseagreen;
+
+
+}
+
+#grid .cell:hover {  /*used only when mouse over the elt */
+    background-color: lightgoldenrodyellow;
+    cursor: pointer;
+}
